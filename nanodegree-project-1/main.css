@@ -18,6 +18,7 @@
 	max-width: 1200px;
 	width:100%
 }
+
 .row {
 	width: 100%;
 	margin-bottom:20px;
@@ -37,23 +38,21 @@
 }
 
 .col-2 {
-	width:16.66%
-}
-
-.col-4-1 {
-	width:33.333333%
-
+	width:16.66%;
 }
 
 
-.col-4-2 {
-	width:33.333333%
-	padding-left: 50px;
-	padding-right: 50px;
+.col-4 {
+	width:33.333333%;
 }
 
-.col-4-3 {
-	width:33.333333%
+.left { text-align: left;}
+.center { text-align: center;}
+.right {text-align: right;}
+
+.responsive-img {
+	max-width: 100%;
+	height: auto;
 }
 
 .col-5 {
@@ -74,3 +73,4 @@
   margin-left: 100px;
   
 }
+
