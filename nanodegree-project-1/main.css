@@ -9,7 +9,7 @@
 	box-sizing: border-box;
 }
 
-* {font-family: 'Raleway', sans-serif;
+* {font-family: 'Orbitron', sans-serif;;
   
 }
 
@@ -22,6 +22,14 @@
 .row {
 	width: 100%;
 	margin-bottom:20px;
+	display: flex;
+	
+}
+
+
+.row-3 {
+	width: 100%;
+	margin-bottom: 150px;
 	display: flex;
 	
 }
@@ -41,6 +49,10 @@
 	width:16.66%;
 }
 
+.col-3 {
+  width: 100%;
+}
+
 
 .col-4 {
 	width:33.333333%;
@@ -52,17 +64,21 @@
 
 .responsive-img {
 	max-width: 100%;
-	height: auto;
+	border: 2px solid;
+  border-radius: 20px;
 }
 
 .col-5 {
    width: 100%;
+   margin-bottom: 100px;
 }
 
 .col-6 {
   width: 100%;
   text-align: left;
   font-size: 36px;
+  color: #668080;
+  margin-bottom: 50px;
 }
 
 
@@ -70,7 +86,8 @@
   width:83.33%;
   text-align: right;
   font-size: 75px;
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-bottom: 125px;
+  color: #668080;
   
 }
-
